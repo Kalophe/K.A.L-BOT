@@ -72,10 +72,11 @@ GUILD_ID=YOUR_GUILD_ID_HERE
 ## Dependencies
 
 Listed in requirements.txt:
-	•	discord.py[voice] – Discord bot framework with voice support
-	•	yt-dlp – YouTube downloader for streaming
-	•	python-dotenv – Load .env variables
-	•	PyNaCl – Required for Discord voice
+
+- discord.py[voice] – Discord bot framework with voice support
+- yt-dlp – YouTube downloader for streaming
+- python-dotenv – Load .env variables
+- PyNaCl – Required for Discord voice
 
 Install manually if needed:
 
