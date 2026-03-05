@@ -1,2 +1,3 @@
 # K.A.L-BOT
-This is an open source Discord Bot for people looking for a self hosted discord bot
+
+A free, private Discord music bot using Python and yt-dlp.
