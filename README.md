@@ -30,7 +30,7 @@ Play YouTube songs directly in voice channels using **Python 3.10+**.
 1. **Clone the repository:**
 
 ```bash
-git clone <git@github.com:Kalophe/K.A.L-BOT.git>
+git clone https://github.com/Kalophe/K.A.L-BOT.git
 cd Kal_Bot
 ```
 2.	**Create a .env file:**
