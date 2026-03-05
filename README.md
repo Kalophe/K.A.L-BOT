@@ -56,11 +56,37 @@ GUILD_ID=YOUR_GUILD_ID_HERE
 
 > The script automatically creates a virtual environment (venv), installs dependencies, and runs the bot.
 
-**Commands**
+---
 
-	•	/play <song> – Play a song from YouTube
-	•	/skip – Skip the current song
-	•	/queue – Show the current queue
-	•	/remove <position> – Remove a song from the queue
+## Commands
+
+	/play <song> – Play a song from YouTube
+	/skip – Skip the current song
+	/queue – Show the current queue
+	/remove <position> – Remove a song from the queue
 
 > Commands are private to your server by default.
+
+---
+
+## Dependencies
+
+Listed in requirements.txt:
+	•	discord.py[voice] – Discord bot framework with voice support
+	•	yt-dlp – YouTube downloader for streaming
+	•	python-dotenv – Load .env variables
+	•	PyNaCl – Required for Discord voice
+
+Install manually if needed:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+---
+## License
+
+This project is licensed under the MIT License.
+	•	Free to use, modify, and share
+	•	Commercial use allowed
+	•	Attribution required
