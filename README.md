@@ -24,3 +24,11 @@ Play YouTube songs directly in voice channels using **Python 3.10+**.
 - A Discord bot token
 
 ---
+
+## Setup
+
+1. **Clone the repository:**
+
+```bash
+git clone <YOUR_REPO_URL>
+cd Kal_Bot
