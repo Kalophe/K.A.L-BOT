@@ -1,13 +1,17 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache/
+*.pytmp
 
 # Virtual environment
-.venv/
 venv/
+.venv/
 
-# Environment variables
+# dotenv
 .env
 
-# macOS system files
+# macOS
 .DS_Store
