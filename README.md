@@ -32,3 +32,35 @@ Play YouTube songs directly in voice channels using **Python 3.10+**.
 ```bash
 git clone <YOUR_REPO_URL>
 cd Kal_Bot
+```
+2.	**Create a .env file:**
+
+Copy the example and add your bot token and guild ID:
+
+```bash
+cp .env.example .env
+```
+
+Edit .env with your credentials:
+
+```bash
+TOKEN=YOUR_BOT_TOKEN_HERE
+GUILD_ID=YOUR_GUILD_ID_HERE
+```
+
+3.	**Run the bot using the included script:**
+
+```bash
+./run.sh
+```
+
+> The script automatically creates a virtual environment (venv), installs dependencies, and runs the bot.
+
+**Commands**
+
+	•	/play <song> – Play a song from YouTube
+	•	/skip – Skip the current song
+	•	/queue – Show the current queue
+	•	/remove <position> – Remove a song from the queue
+
+> Commands are private to your server by default.
