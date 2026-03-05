@@ -88,6 +88,7 @@ python3 -m pip install -r requirements.txt
 ## License
 
 This project is licensed under the MIT License.
-	•	Free to use, modify, and share
-	•	Commercial use allowed
-	•	Attribution required
+
+- Free to use, modify, and share
+- Commercial use allowed
+- Attribution required
